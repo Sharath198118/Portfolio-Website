@@ -1,4 +1,8 @@
 import React from 'react';
+import awscertificate from '../assets/AWS Cloud Practitioner Certificate.pdf';
+import incedocertificate from '../assets/Incedo Learning-Champion.pdf';
+import databricksCertificate from '../assets/Databricks GenAI Certificate.pdf';
+import linkedincertificate from '../assets/LinkedIn Develop Your Communication Skills and Interpersonal Influence.pdf';
 
 function Certifications() {
   const certifications = [
@@ -6,23 +10,23 @@ function Certifications() {
       title: "AWS Certified Cloud Practitioner",
       issuer: "AWS",
       date: "Nov 2023 - Nov 2026",
-      filePath: "/src/assets/AWS Cloud Practitioner Certificate.pdf"
+      filePath: awscertificate
     },
     {
       title: "Certificate of Accomplishment",
       description: "Awarded for demonstrating exceptional commitment and skill acquisition as an Incedo Learning Champion",
-      filePath: "/src/assets/Incedo Learning-Champion.pdf"
+      filePath: incedocertificate
     },
     {
       title: "Databricks Accredited Generative AI Fundamental",
       issuer: "Databricks Academy",
       date: "Nov 2023",
-      filePath: "/src/assets/Databricks GenAI Certificate.pdf"
+      filePath: databricksCertificate
     },
     {
       title: "Develop Your Communication Skills and Interpersonal Influence",
       issuer: "LinkedIn Learning",
-      filePath: "/src/assets/LinkedIn Develop Your Communication Skills and Interpersonal Influence.pdf"
+      filePath: linkedincertificate
     }
   ];
 
