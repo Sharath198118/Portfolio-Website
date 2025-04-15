@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react
 function Hero() {
   return (
     <>
-      <section id="hero" className="py-20 glass-effect rounded-lg mb-8 section-animate fade-in container ">
+      <section id="hero" className="py-20 glass-effect rounded-lg mb-8 section-animate container ">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-800 mb-4 float-animation">

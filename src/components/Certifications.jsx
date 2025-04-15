@@ -32,7 +32,7 @@ function Certifications() {
 
   return (
       <>
-      <section id="certifications" className="py-12 fade-in container">
+      <section id="certifications" className="py-12 container">
         <h2 className="text-3xl font-bold text-gray-800 mb-8">Certifications</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {certifications.map((cert, index) => (

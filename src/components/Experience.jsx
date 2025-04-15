@@ -3,7 +3,7 @@ import React from 'react';
 function Experience() {
   return (
     <>
-    <section id="experience" className="py-12 fade-in container">
+    <section id="experience" className="py-12 container">
       <h2 className="text-3xl font-bold text-gray-800 mb-8">Work Experience</h2>
       <div className="bg-white rounded-lg shadow-md p-6 mb-8">
         <div className="flex justify-between items-start mb-4">

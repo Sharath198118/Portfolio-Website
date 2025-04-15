@@ -3,7 +3,7 @@ import React from 'react';
 function Projects() {
   return (
     <>
-    <section id="projects" className="py-12 fade-in container">
+    <section id="projects" className="py-12 container">
       <h2 className="text-3xl font-bold text-gray-800 mb-8">Projects</h2>
       
       <div className="space-y-8">

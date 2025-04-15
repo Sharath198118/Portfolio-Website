@@ -58,7 +58,7 @@ function Skills() {
 
   return (
     <>
-    <section id="skills" className="py-12 section-animate fade-in container">
+    <section id="skills" className="py-12 section-animate container">
       <h2 className="text-3xl font-bold text-gray-800 mb-8">Professional Skills</h2>
       <div className="grid md:grid-cols-2 gap-6">
         {skillCategories.map((category, index) => (

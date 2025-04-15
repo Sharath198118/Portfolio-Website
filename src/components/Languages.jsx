@@ -17,7 +17,7 @@ function Languages() {
   ];
 
   return (
-    <section id="languages" className="py-12 fade-in container">
+    <section id="languages" className="py-12 container">
       <h2 className="text-3xl font-bold text-gray-800 mb-8">Language Competencies</h2>
       <div className="grid md:grid-cols-3 gap-6">
         {languages.map((lang, index) => (

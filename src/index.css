@@ -140,18 +140,6 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 
-/* Scroll Animations */
-.fade-in {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
-}
-
-.fade-in.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
